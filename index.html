@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explora el Mundo</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+
+        <nav class="menu">
+
+            <a href="#inicio" class="logo">
+                Explora
+            </a>
+
+            <ul class="menu-links">
+
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#videos">Videos</a>
+                </li>
+
+                <li>
+                    <a href="#contenido">Contenido</a>
+                </li>
+
+                <li>
+                    <a href="#nosotros">Nosotros</a>
+                </li>
+
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+
+            </ul>
+
+            <button class="menu-btn" onclick="mostrarMenu()">
+                ☰
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- INICIO -->
+
+        <section id="inicio" class="hero">
+
+            <video
+                class="video-fondo"
+                autoplay
+                muted
+                loop
+                playsinline>
+
+                <source src="videos/fondo.mp4" type="video/mp4">
+
+                Tu navegador no permite reproducir videos.
+
+            </video>
+
+            <div class="capa"></div>
+
+
+            <div class="hero-contenido">
+
+                <p class="etiqueta">
+                    DESCUBRE • EXPLORA • APRENDE
+                </p>
+
+                <h1>
+                    Explora el Mundo
+                </h1>
+
+                <p>
+                    Descubre nuevos lugares, historias y experiencias
+                    a través de nuestros videos.
+                </p>
+
+                <a href="#videos" class="boton">
+                    Ver videos
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- VIDEOS -->
+
+        <section id="videos" class="seccion">
+
+            <div class="contenedor">
+
+                <p class="subtitulo">
+                    NUESTROS VIDEOS
+                </p>
+
+                <h2>
+                    Mira y descubre
+                </h2>
+
+                <p class="descripcion">
+                    Reproduce los videos directamente
+                    dentro de nuestra página.
+                </p>
+
+
+                <div class="videos-grid">
+
+
+                    <!-- VIDEO 1 -->
+
+                    <article class="video-card">
+
+                        <div class="video">
+
+                            <iframe
+                                src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ"
+                                title="Video destacado"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <h3>
+                                Video destacado
+                            </h3>
+
+                            <p>
+                                Disfruta de este contenido
+                                directamente en nuestra página.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- VIDEO 2 -->
+
+                    <article class="video-card">
+
+                        <div class="video">
+
+                            <iframe
+                                src="https://www.youtube-nocookie.com/embed/ScMzIvxBSi4"
+                                title="Experiencias"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <h3>
+                                Experiencias
+                            </h3>
+
+                            <p>
+                                Descubre nuevas experiencias
+                                mediante nuestros videos.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- VIDEO 3 -->
+
+                    <article class="video-card">
+
+                        <div class="video">
+
+                            <iframe
+                                src="https://www.youtube-nocookie.com/embed/ysz5S6PUM-U"
+                                title="Inspiración"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                            </iframe>
+
+                        </div>
+
+                        <div class="video-info">
+
+                            <h3>
+                                Inspiración
+                            </h3>
+
+                            <p>
+                                Encuentra inspiración para
+                                tus proyectos.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTENIDO -->
+
+        <section id="contenido" class="seccion contenido">
+
+            <div class="contenedor">
+
+                <p class="subtitulo">
+                    DESCUBRE MÁS
+                </p>
+
+                <h2>
+                    Nuestro contenido
+                </h2>
+
+
+                <div class="contenido-grid">
+
+
+                    <article class="tarjeta">
+
+                        <span>🌎</span>
+
+                        <h3>
+                            Lugares
+                        </h3>
+
+                        <p>
+                            Conoce lugares interesantes y descubre
+                            nuevos destinos.
+                        </p>
+
+                    </article>
+
+
+                    <article class="tarjeta">
+
+                        <span>🎥</span>
+
+                        <h3>
+                            Videos
+                        </h3>
+
+                        <p>
+                            Encuentra contenido audiovisual
+                            para aprender y entretenerte.
+                        </p>
+
+                    </article>
+
+
+                    <article class="tarjeta">
+
+                        <span>💡</span>
+
+                        <h3>
+                            Ideas
+                        </h3>
+
+                        <p>
+                            Encuentra nuevas ideas e inspiración
+                            para tus proyectos.
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- NOSOTROS -->
+
+        <section id="nosotros" class="seccion nosotros">
+
+            <div class="contenedor">
+
+                <p class="subtitulo">
+                    CONÓCENOS
+                </p>
+
+                <h2>
+                    Nosotros
+                </h2>
+
+                <p>
+                    Somos un espacio dedicado a compartir
+                    contenido audiovisual, ideas y experiencias.
+                </p>
+
+                <p>
+                    Nuestro objetivo es crear un sitio moderno,
+                    sencillo y atractivo para descubrir nuevos
+                    contenidos.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+
+        <section id="contacto" class="seccion contacto">
+
+            <div class="contenedor">
+
+                <p class="subtitulo">
+                    ESCRÍBENOS
+                </p>
+
+                <h2>
+                    Contacto
+                </h2>
+
+                <p class="descripcion">
+                    ¿Quieres comunicarte con nosotros?
+                </p>
+
+
+                <form>
+
+                    <input
+                        type="text"
+                        placeholder="Nombre"
+                        required>
+
+                    <input
+                        type="email"
+                        placeholder="Correo electrónico"
+                        required>
+
+                    <textarea
+                        placeholder="Escribe tu mensaje"
+                        rows="5"
+                        required></textarea>
+
+                    <button
+                        type="submit"
+                        class="boton">
+
+                        Enviar mensaje
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Explora. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
